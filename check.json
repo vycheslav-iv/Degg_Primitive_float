@@ -1,0 +1,10 @@
+{
+  "checks": [
+    {
+      "label": "логика ноды (Python-песочница)",
+      "cmd": "python tests/_test_degg_primitive_float.py",
+      "expect": ["FAIL: 0", "ТЕСТ ПРОЙДЕН"],
+      "description": "контракт поля FLOAT (тип, default 1.0, step, границы ±sys.float_info.max), значение проходит насквозь (ноль, знак, целое, экстремум), возврат кортежем, имена класса/меню/REGISTRY-ключ"
+    }
+  ]
+}
